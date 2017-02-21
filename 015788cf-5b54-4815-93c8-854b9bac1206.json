@@ -1,0 +1,123 @@
+{
+  "name": "Horizontal Lines",
+  "description": "Horizontal rule examples\n\nCredits to https://codepen.io/ibrahimjabbari/pen/ozinB",
+  "author": "HMB",
+  "library": "Line_Widgets",
+  "meta": {
+    "type": "other"
+  },
+  "properties": {
+    "sections": [
+      {
+        "type": "header",
+        "order": 0,
+        "parent": "qw-pe-dropzone0-0",
+        "ref": "header1",
+        "label": "Settings"
+      }
+    ],
+    "settings": [
+      {
+        "component": "dropdown",
+        "type": "string",
+        "defaultValue": "style1",
+        "options": [
+          {
+            "label": "Classic",
+            "value": "style1"
+          },
+          {
+            "label": "Double",
+            "value": "style2"
+          },
+          {
+            "label": "Dashed",
+            "value": "style3"
+          },
+          {
+            "label": "Dotted",
+            "value": "style4"
+          },
+          {
+            "label": "Dashed w/bkg",
+            "value": "style5"
+          },
+          {
+            "label": "Dotted w/bkg",
+            "value": "style6"
+          },
+          {
+            "label": "style7",
+            "value": "style7"
+          },
+          {
+            "label": "style8",
+            "value": "style8"
+          },
+          {
+            "label": "style9",
+            "value": "style9"
+          },
+          {
+            "label": "style10",
+            "value": "style10"
+          },
+          {
+            "label": "style11",
+            "value": "style11"
+          },
+          {
+            "label": "style12",
+            "value": "style12"
+          },
+          {
+            "label": "style13",
+            "value": "style13"
+          },
+          {
+            "label": "style14",
+            "value": "style14"
+          },
+          {
+            "label": "style15",
+            "value": "style15"
+          },
+          {
+            "label": "style16",
+            "value": "style16"
+          },
+          {
+            "label": "style17",
+            "value": "style17"
+          },
+          {
+            "label": "style18",
+            "value": "style18"
+          }
+        ],
+        "order": 0,
+        "parent": "header1",
+        "ref": "lineType",
+        "label": "Line Type"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#8c8b8b",
+        "order": 1,
+        "parent": "header1",
+        "ref": "pColor",
+        "label": "Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#ffffff",
+        "order": 2,
+        "parent": "header1",
+        "ref": "pBkgColor",
+        "label": "Background Color"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Vertical Lines",
+  "description": "Vertical Rule",
+  "author": "HMB",
+  "library": "Line_Widgets",
+  "meta": {
+    "type": "other"
+  },
+  "properties": {
+    "sections": [
+      {
+        "type": "header",
+        "order": 0,
+        "parent": "qw-pe-dropzone0-0",
+        "ref": "header1",
+        "label": "Settings"
+      }
+    ],
+    "settings": [
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#7F7F7F",
+        "order": 0,
+        "parent": "header1",
+        "ref": "pColor",
+        "label": "Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "1",
+        "order": 2,
+        "parent": "header1",
+        "ref": "pWidth",
+        "label": "Width"
+      },
+      {
+        "component": "radiobuttons",
+        "type": "string",
+        "defaultValue": "solid",
+        "options": [
+          {
+            "value": "solid",
+            "label": "Solid"
+          },
+          {
+            "label": "Dotted",
+            "value": "dotted"
+          },
+          {
+            "label": "Dashed",
+            "value": "dashed"
+          },
+          {
+            "label": "Double",
+            "value": "double"
+          },
+          {
+            "label": "Groove",
+            "value": "groove"
+          },
+          {
+            "label": "Ridge",
+            "value": "ridge"
+          }
+        ],
+        "order": 3,
+        "parent": "header1",
+        "ref": "pStyle",
+        "label": "Style"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#ffffff",
+        "order": 1,
+        "parent": "header1",
+        "ref": "pBkgColor",
+        "label": "Background Color"
+      }
+    ]
+  }
+}
